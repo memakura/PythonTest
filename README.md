@@ -100,8 +100,7 @@ Received data:
 ```
 
 ## asynchttp
-- http://aiohttp.readthedocs.io/en/stable
-    - asynchttp as a Protocol in asyncio (how to get handler)
+- The example codes are from http://aiohttp.readthedocs.io/
 - Samples of asyncio, etc: https://www.pythonsheets.com/notes/python-asyncio.html
 
 Installation
@@ -117,6 +116,23 @@ python simpe_http_server.py
 Console 2 (bash)
 ```
 nc localhost 8888 (Enter)
-GET /hello HTTP/1.1 (Enter)
+GET /hoge HTTP/1.1 (Enter)
 (Enter)
 ```
+
+Result of Console 2
+```
+GET /hello HTTP/1.1
+
+HTTP/1.1 200 OK
+Content-Type: text/plain; charset=utf-8
+Content-Length: 12
+Date: Mon, 19 Jun 2017 00:11:25 GMT
+Server: Python/3.5 aiohttp/2.1.0
+
+Hello, hoge
+```
+
+## Low-level asynchttp
+- asynchttp as a Protocol in asyncio (how to get handler) : https://www.pythonsheets.com/notes/python-asyncio.html
+
