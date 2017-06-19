@@ -99,13 +99,13 @@ Received data:
 --- closing...
 ```
 
-## asynchttp
+## aiohttp
 - The example codes are from http://aiohttp.readthedocs.io/
 - Samples of asyncio, etc: https://www.pythonsheets.com/notes/python-asyncio.html
 
 Installation
 ```
-pip install asynchttp
+pip install aiohttp
 ```
 
 Console 1
@@ -133,6 +133,6 @@ Server: Python/3.5 aiohttp/2.1.0
 Hello, hoge
 ```
 
-## Low-level asynchttp
-- asynchttp as a Protocol in asyncio (how to get handler) : https://www.pythonsheets.com/notes/python-asyncio.html
+## Low-level aiohttp
+- aiohttp as a Protocol in asyncio (how to get handler) : https://www.pythonsheets.com/notes/python-asyncio.html
 
